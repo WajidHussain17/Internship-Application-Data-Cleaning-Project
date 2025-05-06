@@ -56,7 +56,7 @@ This helps keep the dataset within a realistic and reliable range.
 ---
 
 ## 📁 Project Files
-- `data_cleaning.py` – Python script with all 5 data cleaning steps.
+- `main.py` – Python script with all 5 data cleaning steps.
 - `README.md` – Project documentation.
 
 ---
