@@ -34,9 +34,9 @@ print(df)
 print(df.duplicated())
 
 # Drop duplicates
-drop_duplicates = df.drop_duplicates()
+df = df.drop_duplicates()
 
-print(drop_duplicates)
+print(df)
 
 # Describe Data
 print(df['Age'].describe())
@@ -51,7 +51,7 @@ lower=Q1-1.5*IQR
 upper=Q3+1.5*IQR
 
 # Filterout the outliers
-df = df[(df['Age']<lower) & (df["Age"]>upper)]
+df = df[(df['Age'] >= lower) & (df['Age'] <= upper)]
 
 
 # Standardize column values
